@@ -1,0 +1,487 @@
+*{
+    margin: 0;
+    padding 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;  
+}
+
+header nav {
+    width: 100%;
+    height: 290px;
+}
+
+header .wrapper {
+    width: 90%;
+}
+
+header .wrapper h1 {
+  width: 100px;
+  height: 50px;
+   
+}
+
+header .wrapper h1 a {
+    display: block;
+    position: relative;
+    top: 40px;
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: lowercase;
+}
+
+header .wrapper h1 a span {
+    display: inline-block;
+    height: 35px;
+    border-bottom: 3px solid #ffffff;
+}
+
+nav h2 {
+    text-indent: -10000px;
+}
+
+header nav ul {
+    height: 0;
+    overflow: hidden;
+}
+
+header nav ul.open {
+    height: auto;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255,255,255,0.15);
+    position: relative;
+    top: -40px;
+}
+
+nav li {
+    width: 100%;
+}
+
+nav li a{
+    display: block;
+    width: 65px;
+    height: 20px;
+    margin: 0 auto;
+    text-decoration: none;
+    text-align: center;
+    padding: 4px;
+    color: #ffffff;  
+    font-size: 0.8em;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+}
+
+nav li a:hover {
+    border-bottom: 2px solid #97735e;
+}
+
+#hamburger-menu {
+    width: 20%;
+    height: 40px;
+    background: url(images/ham.png) no-repeat 98% center;
+    background-size: 30px;
+    cursor: pointer;
+    position: relative;
+    top: -36px;
+    left: 78%;
+}
+
+.banner {
+    background: url(images/banner.jpg) no-repeat 60% center;
+    width: 100%;
+    height: 550px;
+    margin-top: -350px;
+}
+
+.banner h2 {
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    top: 320px;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+.banner p {
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    top: 320px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.banner p a {
+    display: block;
+    width: 100px;
+    height: 20px;
+    font-size: 0.5em;
+    padding-top: 6px;
+    margin:  auto;
+    margin-top: 50px;
+    color: #97735e;
+    background-color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    transition: 1s;
+}
+
+.banner p a:hover {
+    background: #97735e;
+    color: #ffffff;
+}
+
+.works p{
+    border: 1px solid #97735e;
+    width: 120px;
+    height: 24px;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    color: #97735e;
+    text-align: center;
+    padding-top: 6px;
+    text-transform: uppercase;
+}
+
+.works img {
+    width: 100%;
+}
+
+.main-content h3 {
+    color: #97735e;
+    text-transform: uppercase;
+    margin: 40px 0 10px;
+    font-size: 1.3em;
+}
+
+.project-description p {
+    color: #c4c3c2;
+    font-size: 0.8em;
+    text-align: justify;
+    letter-spacing: 0.1em;
+    font-family: 'PT Serif', serif;
+    margin-bottom: 50px;
+}
+
+.photos{
+    list-style-type: none;
+    margin: 0 auto;
+}
+
+.photos li img {
+    display: block;
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+.project-details h3 {
+   margin: 10px 0;
+}
+
+.project-details .date {
+    margin-left: -30px;
+    margin-top: 0;
+}
+
+.date li {
+    color: #97735e;
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+.date li span {
+    color: #c4c3c2;
+    text-transform: none;
+    font-weight: normal;
+    font-family: 'PT Serif', serif;
+    font-size: 1.1em;
+}
+
+.share ul{
+    list-style-type: none;
+    margin-left: -55px;
+}
+
+.share ul li {
+    float: left;
+    padding: 8px;
+    margin-left: 10px;
+    margin-bottom: 55px;
+}
+
+.share ul li a {
+    display: block;
+    margin:0;
+}
+
+.all-project {
+    clear: both;
+}
+
+.all-project a {
+    display: block;
+    width: 150px;
+    height: 30px;
+    text-decoration: none;
+    color: #97735e;
+    border: 1px solid #97735e;
+    text-align: center;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-top: 120px;
+    line-height: 2.3em;
+    letter-spacing: 0.1em;
+    transition: 1s;
+}
+
+.all-project a:hover {
+    background: #97735e;
+    color: #ffffff;
+}
+
+.all-project img {
+    display:block;
+    margin: 0 auto;
+    position: relative;
+    top: -110px;
+}
+
+footer {
+    width: 100%;
+    height: 300px;
+    background: #97735e;
+    margin-top: 60px;
+}
+
+footer h3 {
+    text-indent: -10000px;
+}
+
+footer h3 a {
+    display: block;
+    background: url(images/logo_footer.png) no-repeat center;
+    width: 100px;
+    height: 50px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+footer ul {
+    list-style-type: none;
+    height: 30px;
+    width: 100%;  
+    margin: 30px 0 0;
+    padding: 0;
+    text-align: center;
+}
+
+footer ul li {
+    display: inline-block;
+    
+}
+
+footer ul li a {
+    display: block;
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+
+footer ul li a:hover {
+    background: rgba(255,255,255,0.2);
+    border-radius: 50%;
+}
+
+footer p {
+    clear: both;
+    color: #ffffff;
+    margin-top: 60px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 550px) {
+    
+    .photos {
+        width: 100%;
+        height: 100px;
+        margin: 0 auto;
+    }
+    
+.photos li {
+    float: left;
+    margin-right: 10px;
+    width: 30%;
+}
+
+.project-details h3 {
+   clear:both;
+}
+    
+.project-details .date  {
+        margin-left: -40px;
+    }
+    
+        
+}
+
+@media screen and (min-width: 960px) {
+    
+    .wrapper {
+    width: 85%; 
+}
+    
+    header .wrapper {
+    width: 85%;
+}
+    
+    .banner h2 {
+        font-size: 2.6em;
+        left: -30px;
+        top: 280px;
+    }
+    
+    .banner p {
+        font-size: 2.1em;
+        font-weight: normal;
+        top: 280px;
+    }
+    
+    .banner p a{
+        width: 130px;
+        height: 28px;
+        font-size: 0.35em;
+        line-height: 1.8em;
+        font-weight: bold;
+    }
+    
+    nav #hamburger-menu {
+        width: 0;
+        height: 0;
+    }
+    
+    nav ul{
+        height: 200px;
+        width: 600px;
+        margin-top: -40px;
+        float: right;
+    }
+    
+    nav ul li {
+       float: left;
+        width: 80px;
+        margin-right: -5px;
+    }
+    
+    nav ul li a {
+        position: absolute;
+        font-size: 0.7em;
+        width: 55px;
+        padding: 0;
+    }
+    
+    header nav ul.open {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .works p {
+        width: 150px;
+        font-size: 0.9em;
+        margin-top: 140px;
+    }
+    
+    .line-left {
+        float: left;
+        width: 40%;
+        height: 5px;
+        border-bottom: 1px solid #97735e;
+        position: relative;
+        top: 12px;
+    }
+    
+     .line-right {
+         float: right;
+        width: 40%;
+        height: 5px;
+        border-bottom: 1px solid #97735e;
+        position: relative;
+        top: 12px;
+    }
+    
+    .works img {
+        margin-top: 30px;
+    }
+    
+    .project-description {
+        float: left;
+        width: 35%;
+        margin-top: 40px;
+    }
+    
+    .project-details {
+        float: right;
+        width: 60%;
+        position: relative;
+        top: 90px;
+        right: -10px;
+        
+    }
+    
+    .project-details h3 {
+        margin-left: 40px;
+    }
+    
+    .date {
+        list-style-type: none;
+        padding-left: 80px;
+    }
+    
+   project-details .photos {
+        width: 90%; 
+    }
+    
+    .photos li {
+        margin-left: 5px;
+    }
+    
+    .share {
+        position: relative;
+        top: 120px;
+        left: 105px;
+    }
+    
+    .share ul {
+        position: relative;
+        left: -15px;
+    }
+    
+    
+    .main-content {
+       border-bottom: 1px solid #977355;
+        height: 850px;
+ }
+    
+    footer ul {
+        position: 0 auto;
+    }
+    
+}
+
+

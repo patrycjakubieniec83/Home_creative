@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Innox - Home Creative</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    
+
+    <header>
+        <div class="wrapper">
+            <h1><a href="./">Inn<span>o</span>x</a></h1>
+            <nav>
+                <h2>Navigation Menu</h2>
+                <div id="hamburger-menu"></div>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#works">Works</a></li>
+                        <li><a href="#services">Clients</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#projects">Team</a></li>
+                        <li><a href="#projects">Blog</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+    </header>
+    
+
+    <div class="banner">
+        <div class="wrapper">
+            <h2 id="about">We Are SuperBro</h2>
+            <p>Nice to Meet You</p>
+            <p><a href="#works">Our Works</a></p>
+        </div>
+    </div>
+    
+
+    <main>
+        <div class="wrapper">
+            <section id="works" class="works">
+                <div class="line">
+                <div class="line-left"></div>
+                <div class="line-right"></div>
+                </div>
+                <p>Works</p>
+                <img src="images/slider_works.jpg" alt="">
+            </section>
+            <section class="main-content">
+                <article class="project-description" id="services">
+                    <h3>Project Description</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <br/><br/><br/>
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione </p>
+                </article>
+                <article class="project-details">
+                    <ul class="photos">
+                        <li><img src="images/photo_1.png" alt=""></li>
+                        <li><img src="images/photo_2.png" alt=""></li>
+                        <li><img src="images/photo_3.png" alt=""></li>
+                    </ul>
+                    <h3>Project Details</h3>
+                    <ul class="date">
+                        <li>Date: <span>18.10.2015</span></li>
+                        <li>Client: <span>Skender Company Ltd</span></li>
+                         <li>Category: <span>Branding, UI/UX, Web Design</span></li>
+                         <li>Tags: <span>Skender, Zza, Branding, Design</span></li>
+                    </ul>
+                </article>
+                <div class="share">
+                    <h3>Share</h3>
+                    <ul>
+                        <li><a href="#"><img src="images/facebook-logo.png" alt="facebook_icon"></a></li>
+                        <li><a href="#"><img src="images/twitter%20(3).png" alt="titter_icon"></a></li>
+                        <li><a href="#"><img src="images/linkedin-logo.png" alt="lindekin_icon"></a></li>
+                        <li><a href="#"><img src="images/pinterest-logo.png" alt="pinterest_icon"></a></li>
+                        <li><a href="#"><img src="images/google-plus-symbol.png" alt="google_icon"></a></li>
+                    </ul>
+                </div>
+            </section>
+            
+            
+            <section class="all-project" id="projects">
+                    <p><a href="#">Prev Project</a></p>
+                    <p><a href="#">Next Project</a></p>
+                    <img src="images/windows_icon.png" alt="windows_icon">
+            </section>
+        </div>
+    </main>
+    
+
+    <footer id="contact">
+        <h3><a href="#">Innox</a></h3>
+        <ul>
+            <li><a href="#"><img src="images/fb_icon.png" alt="facebook_icon"></a></li>
+            <li><a href="#"><img src="images/twitter-16.png" alt="titter_icon"></a></li>
+            <li><a href="#"><img src="images/linkedin-16.png" alt="lindekin_icon"></a></li>
+            <li><a href="#"><img src="images/behance-16.png" alt="behance_icon"></a></li>
+            <li><a href="#"><img src="images/dribbble-16.png" alt="dibble_icon"></a></li>
+            <li><a href="#"><img src="images/pinterest-4-16.png" alt="pinterest_icon"></a></li>
+            <li><a href="#"><img src="images/google-plus-16.png" alt="google_icon"></a></li>
+        </ul>
+        <p>&copy;2015 Innox | Designed By  Cemil Bayram | Coding By Patrycja Kubieniec </p>
+    </footer>    
+    
+    
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="menu.js"></script>
+    <script>
+        $(function() {
+            $('a[href*="#"]:not([href="#"])').click(function() {
+                if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                    if (target.length) {
+                        $('html, body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
+                }
+            });
+        });
+    </script>    
+    
+</body>   
+</html>
